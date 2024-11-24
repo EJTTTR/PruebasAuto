@@ -95,7 +95,7 @@ def test_agregar_comentario(setup_driver):
     comentario = Comentarios(driver)
     try:
         time.sleep(4)
-        comentario.agregar_comentario("prueba automatizada de comentario ihoi558")
+        comentario.agregar_comentario("prueba automatizada de comentario no.007")
 
     except Exception as e:
         tomar_captura(driver, 'error_agregar_comentario')
